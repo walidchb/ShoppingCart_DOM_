@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shopping Card</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/6d0cb72284.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <table border="3">
+      <thead>
+        <tr>
+          <th style="width: 200px">Product</th>
+          <th style="width: 200px">Name</th>
+          <th style="width: 200px">Qty</th>
+          <th style="width: 200px">price</th>
+          <th style="width: 200px">Amount</th>
+          <th style="width: 2em"></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>walid</td>
+          <td>chebbab</td>
+          <td
+            style="
+              display: flex;
+              flex-direction: row;
+              justify-content: center;
+              align-items: center;
+            "
+          >
+            <button style="padding: 0.3em 1em" class="MINUS">-</button>
+            <span>1</span>
+            <button style="padding: 0.3em 1em" class="PLUS">+</button>
+          </td>
+          <td class="price">$80</td>
+          <td class="Amount">$80</td>
+          <td><button class="REMOVE">X</button></td>
+          <td>
+            <i class="far fa-heart"></i>
+          </td>
+        </tr>
+
+        <tr>
+          <td>abdesslem</td>
+          <td>chebbab</td>
+          <td
+            style="
+              display: flex;
+              flex-direction: row;
+              justify-content: center;
+              align-items: center;
+            "
+          >
+            <button style="padding: 0.3em 1em" class="MINUS">-</button>
+            <span>1</span>
+            <button style="padding: 0.3em 1em" class="PLUS">+</button>
+          </td>
+          <td class="price">$60</td>
+          <td class="Amount">$60</td>
+          <td><button class="REMOVE">X</button></td>
+          <td>
+            <i class="far fa-heart"></i>
+          </td>
+        </tr>
+        <tr>
+          <td>hadjer</td>
+          <td>chebbab</td>
+          <td
+            style="
+              display: flex;
+              flex-direction: row;
+              justify-content: center;
+              align-items: center;
+            "
+          >
+            <button style="padding: 0.3em 1em" class="MINUS">-</button>
+            <span>1</span>
+            <button style="padding: 0.3em 1em" class="PLUS">+</button>
+          </td>
+          <td class="price">$120</td>
+          <td class="Amount">$120</td>
+          <td><button class="REMOVE">X</button></td>
+          <td>
+            <i class="far fa-heart"></i>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+    <span>Total : </span><span class="total">$260</span>
+
+    <script src="script.js"></script>
+  </body>
+</html>
